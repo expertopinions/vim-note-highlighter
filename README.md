@@ -1,5 +1,7 @@
 # vim-note-highlighter
 
+syntax highlighter for a file extension i made up to write notes in (.ln)
+
 This repository exists for a very small subset of human beings: people who are in school and want to use vim to take notes. I have some very small, humble goals in mind with regards to this script:
 
 1. I want to be able to highlight certain important details as I am typing them, instead of putting them in a WYSIWYG editor like Word to highlight later.
