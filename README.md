@@ -16,6 +16,7 @@ This script supports five different kinds of highlighting that I feel is necessa
 - \*\*dangerous pitfalls\*\* in red, for things to generally avoid
 - [examples or remiders] in cyan, to add depth or to find more info after class
 - {necessary references} in magenta, to things contained outside the text file e.g. drawings
+- $$section headings$$ in green, to split up topics the lecturererer covers
 
 As of right now, you cannot nest colors within each other. If that ever does
 become a feature, the way to cancel that effect would always be using (parentheses).
