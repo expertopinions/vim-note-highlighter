@@ -15,7 +15,7 @@ syn region noteExa start='\[' end='\]'
 syn region noteFck start="*\*" end="*\*"
 syn region noteVoc start='<' end='>'
 syn region notePar start='(' end=')'
-syn region noteSec start='$$' end='$$'
+syn region noteSec start='\$\$' end='\$\$'
 let b:current_syntax = "note"
 
 hi noteRef ctermfg = Magenta
