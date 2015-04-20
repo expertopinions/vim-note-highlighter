@@ -2,7 +2,7 @@
 " Language: Lecture Notes <set up as .ln files>
 " Maintainer: Hadrian Merced <@gmail.com, no space in my name>
 " Last Change: April 19, 2015
-" Version: 0.69 <ln(2)>
+" Version: 1.10 <ln(3)>
 
 if exists("b:current_syntax")
 	finish
@@ -15,11 +15,12 @@ syn region noteExa start='\[' end='\]'
 syn region noteFck start="*\*" end="*\*"
 syn region noteVoc start='<' end='>'
 syn region notePar start='(' end=')'
-
+syn region noteSec start='$$' end='$$'
 let b:current_syntax = "note"
 
 hi noteRef ctermfg = Magenta
 hi noteExa ctermfg = Cyan
 hi noteFck ctermfg = Red
-hi def link noteVoc Statement
-hi notePar ctermfg = white
+hi noteVoc ctermfg = Yellow
+hi notePar ctermfg = White
+hi noteSec ctermfg = Green
