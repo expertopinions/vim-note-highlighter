@@ -10,13 +10,13 @@ This repository exists for a very small subset of human beings: people who are i
 
 Currently, this is only adaptable to my current setup for taking notes, which is a VM running a very minimal setup of Arch Linux. As I find good reasons to increase its adaptability, I will continue to revise and edit the script.
 
-This script supports five different kinds of highlighting that I feel is necessary to use:
+This script supports various kinds of highlighting that I feel is necessary to use:
 - (parenthetical asides) in white, to clarify or digress
 - \<important vocabulary\> in yellow, to memorize the meaning of words
 - \*\*dangerous pitfalls\*\* in red, for things to generally avoid
 - [examples or remiders] in cyan, to add depth or to find more info after class
 - {necessary references} in magenta, to things contained outside the text file e.g. drawings
-- $$section headings$$ in green, to split up topics the lecturererer covers
+- $$section headings$$ in green, to split up topics the lecturer covers
 
 As of right now, you cannot nest colors within each other. If that ever does
 become a feature, the way to cancel that effect would always be using (parentheses).
