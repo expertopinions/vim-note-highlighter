@@ -17,6 +17,7 @@ This script supports five different kinds of highlighting that I feel is necessa
 - [examples or remiders] in cyan, to add depth or to find more info after class
 - {necessary references} in magenta, to things contained outside the text file e.g. drawings
 
-Possibly soon will be section headers in green once I find a good way to express them.
+As of right now, you cannot nest colors within each other. If that ever does
+become a feature, the way to cancel that effect would always be using (parentheses).
 
-If you're curious, the version number is based on the natural log of however many revisions I've made to the vimscript.
+If for some reason you want to install this onto your Linux box, you probably already know how to do it. But just in case you don't, merge the syntax and ftdetect folders with the ones in /usr/share/vim/vim74 or wherever you keep your version of vim.
